@@ -1,0 +1,26 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__arrow {
+        margin: 0 6px;
+    }
+    &__arrow--disabled {
+        opacity: 0;
+        pointer-events: none;
+    }   
+    &__list {
+        display: flex;
+    }
+    &__list-item {
+        margin: 0 6px;
+    }
+    &__list-num {
+        font-weight: 600;
+        font-size: 14px;
+        color: #707070;
+    }
+    &__list-num--active {
+        color: $title;
+    }
+}

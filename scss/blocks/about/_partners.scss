@@ -1,0 +1,10 @@
+.partners {
+    padding: 16px 0 0;
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    &__item {
+        margin: 0 auto;
+    }
+}

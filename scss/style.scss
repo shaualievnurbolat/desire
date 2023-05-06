@@ -1,0 +1,36 @@
+@import 'base/vars';
+@import 'base/fonts';
+@import 'base/reset';
+@import 'base/libs';
+@import 'base/global';
+
+@import 'blocks/index/header';
+@import 'blocks/index/footer';
+@import 'blocks/index/rightmenu';
+@import 'blocks/index/breadcrumbs';
+@import 'blocks/index/main';
+@import 'blocks/index/newcol';
+@import 'blocks/index/decor';
+@import 'blocks/index/workspath';
+@import 'blocks/index/gallery';
+@import 'blocks/index/blogbox';
+
+@import 'blocks/about/about';
+@import 'blocks/about/inspiration';
+@import 'blocks/about/partners';
+
+@import 'blocks/contacts/map';
+@import 'blocks/contacts/contact';
+
+@import 'blocks/blog/blog';
+@import 'blocks/blog/articlepopup';
+@import 'blocks/blog/articleslider';
+@import 'blocks/blog/aside';
+@import 'blocks/blog/pagination';
+@import 'blocks/blog-one/blog-one';
+
+
+@import 'media';
+
+
+
